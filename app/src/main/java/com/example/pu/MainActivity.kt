@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener, Vie
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        txv.text = "作者:王姿"
+        txv.text = "作者:王姿侑"
         gDetector = GestureDetector(this, this)
         img.setOnTouchListener(this)
 
